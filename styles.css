@@ -1,0 +1,9 @@
+@import "./Components/footer/footer.css";
+@import "./Components/header/header.css";
+@import "./Components/Main/base.css";
+@import "./Components/Main/buttons.css";
+@import "./Components/Main/icons.css";
+@import "./Components/Main/images.css";
+@import "./Components/Main/navbar.css";
+@import "./Components/Main/searchbar.css";
+@import "./Components/Main/text.css";
