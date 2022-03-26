@@ -1,25 +1,25 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 :root {
-  --background-color: #181a1c;
-  --color: #ecebed;
-  --color-pink: #f62ebe;
-  --color-secondary-lightgrey: #727477;
-  --color-gradient: #f62e8e #ac1af0;
+    --background-color: #181a1c;
+    --color: #ecebed;
+    --color-pink: #f62ebe;
+    --color-secondary-lightgrey: #727477;
+    --color-gradient: #f62e8e #ac1af0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: blue;
-  color: var(--color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    color: var(--color);
 }
