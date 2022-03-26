@@ -13,7 +13,9 @@ html {
   --color: #ecebed;
   --color-pink: #f62ebe;
   --color-secondary-lightgrey: #727477;
-  --color-gradient: #f62e8e #ac1af0;
+  --color-gradient: #f62e8e, #ac1af0;
+  --color-gradient1: #f62e8e;
+  --color-gradient2: #ac1af0;
 }
 
 body {
