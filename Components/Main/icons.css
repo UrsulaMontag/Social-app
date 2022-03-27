@@ -13,6 +13,11 @@
   background-color: var(--background-color);
 }
 
+.icon__circle--blank {
+  background-color: var(--color-secondary-darkgrey);
+  border-color: var(--background-color);
+}
+
 .icon__elipse--marked {
   width: 0.6rem;
   min-height: 0.6rem;
@@ -37,4 +42,8 @@
 .icon--high {
   min-width: 1.2rem;
   min-height: 1.5rem;
+}
+
+.icon__like--blue {
+  color: blue;
 }
