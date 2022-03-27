@@ -1,32 +1,30 @@
 .text {
   font-family: "Poppins", sans-serif;
-}
-
-.text__headline2 {
   font-size: 1.3rem;
-  line-height: 1.6rem;
-  text-align: left;
-  letter-spacing: 10%;
-  color: var(--color-secondary-lightgrey);
-}
 
-.text--bold {
-  font-size: 1.3rem;
-  font-family: "DM Sans", sans-serif;
   line-height: 2rem;
   text-align: left;
   font-weight: 200;
 }
 
-.text--bold strong {
+.text__headline2 {
+  padding: 0 0 0 2.4rem;
+
+  font-size: 1.4rem;
+
+  line-height: 1.6rem;
+  letter-spacing: 10%;
+  color: var(--color-secondary-lightgrey);
+}
+
+.text--bold {
+  _font-family: "DM Sans", sans-serif;
+  font-weight: 200;
   font-size: 1.4rem;
   font-weight: 900;
 }
 
 .text--timestamp {
-  font-size: 1.3rem;
-  line-height: 2rem;
-  text-align: left;
   font-weight: 500;
   color: var(--color-secondary-lightgrey);
 }
@@ -34,20 +32,18 @@
 .summary {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
+
   gap: 1.6rem;
 
-  _padding: 0 2.4rem 0 -4.8rem;
+  margin: 1.6rem 0 1.6rem 0;
 }
 
 .summary__box {
   display: flex;
   gap: 1.2rem;
 
-  min-width: 100vw;
+  width: 100%;
+  padding: 1.6rem 0 1.6rem 2.4rem;
 
-  padding: 1.6rem 0 1.6rem 0;
-  box-shadow: 0 -1px 0 0 #32343650;
-  border-bottom: 0.5px solid #32343650;
+  box-shadow: 0 1px 0 0 #32343650;
 }
