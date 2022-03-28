@@ -1,0 +1,8 @@
+/*icons for socialbar post1 profile*/
+
+.socialbar_icons {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 675px;
+}
