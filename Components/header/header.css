@@ -12,8 +12,8 @@
 .header-pic__circle {
   position: absolute;
   top: 22.7vw;
-  left: 30vw;
-
+  left: 50%;
+  transform: translate(-50%, 0);
   min-width: 40vw;
   min-height: 40vw;
 
