@@ -20,6 +20,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
+  background-color: #181a1c;
   color: var(--color);
 }

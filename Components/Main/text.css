@@ -1,0 +1,5 @@
+.text__headline1 {
+  font-weight: bold;
+  display: flex;
+  justify-content: stretch;
+}
