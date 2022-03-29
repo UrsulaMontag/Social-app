@@ -1,3 +1,22 @@
+
+.header-bar {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #181a1c;
+  padding: 3px;
+}
+
+.header__bar_greet {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin: 2rem;
+}
+
+.header__stories {
+  margin-top: 2rem;
+
 .header-pic {
   min-width: 100vw;
   min-height: 42.7vw; /*abzüglich footer height*/
@@ -35,4 +54,5 @@
   position: absolute;
   top: 16vw;
   right: 6.4vw;
+
 }
