@@ -1,0 +1,7 @@
+.images__profile {
+  max-width: 37.33vw;
+  max-height: 37.33vw;
+
+  border-radius: 50%;
+  border: 2px solid var(--background-color);
+}

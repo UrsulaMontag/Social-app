@@ -1,6 +1,53 @@
+
 .icon__message {
   background-color: #181a1c;
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
+
+.icon__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.6rem;
+  position: relative;
+
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-secondary-lightgrey);
+
+  background-color: var(--background-color);
+}
+
+.icon__circle--blank {
+  background-color: var(--color-secondary-darkgrey);
+  border-color: var(--background-color);
+}
+
+.icon__elipse--marked {
+  width: 0.6rem;
+  min-height: 0.6rem;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0.7rem;
+  left: 2rem;
+  z-index: 10;
+  background-color: var(--color-gradient1);
+}
+
+.icon {
+  filter: brightness(7);
+
+  min-width: 1.5rem;
+  min-height: 1.2rem;
+
+  border-radius: 50%;
+}
+
+.icon--blue {
+  color: var(--color-primary-socialblue);
+
 }

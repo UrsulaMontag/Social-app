@@ -1,3 +1,4 @@
+
 .header-bar {
   display: flex;
   flex-direction: column;
@@ -15,4 +16,43 @@
 
 .header__stories {
   margin-top: 2rem;
+
+.header-pic {
+  min-width: 100vw;
+  min-height: 42.7vw; /*abzüglich footer height*/
+
+  background-image: url("../images/img/background-profile.png");
+  background-size: cover;
+
+  position: relative;
+  margin: 0 0 20vw 0;
+}
+
+.header-pic__circle {
+  position: absolute;
+  top: 22.7vw;
+  left: 50%;
+  transform: translate(-50%, 0);
+  min-width: 40vw;
+  min-height: 40vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to bottom right, #f62e8e 0%, #ac1af0 100%);
+  border-radius: 50%;
+
+  z-index: 10;
+}
+
+.header__icon-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5.3vw;
+
+  position: absolute;
+  top: 16vw;
+  right: 6.4vw;
+
 }
